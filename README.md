@@ -15,7 +15,7 @@ __value__ : 0 - 255
 
 ### Basic Example  
 
-```
+```C
 #include <TridentTD_analogWrite32.h>
 
 uint8_t pin = 4;   // can use GPIO1 - GPIO16 for analogWrite
