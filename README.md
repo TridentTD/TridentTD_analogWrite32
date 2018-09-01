@@ -18,10 +18,10 @@ __value__ : 0 - 255
 ```C
 #include <TridentTD_analogWrite32.h>
 
-uint8_t pin = 4;   // can use GPIO1 - GPIO16 for analogWrite
+uint8_t pin = 4;   // can use between GPIO1 - GPIO16 for analogWrite
 
 void setup(){
-   TridentTD::analogWrite( pin, 120 );   // set analog value between 0-255 for specific pin
+   TridentTD::analogWrite( pin, 120 );   // set analog value 120 for GPIO4 pin
 }
 void loop(){
 }
